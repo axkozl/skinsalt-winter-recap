@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Skin Salt — Winter Strategy Recap</title>
+<title>Skin Salt — Winter Angle Playbook</title>
 <link rel="icon" href="https://skinsalt.co/cdn/shop/files/favicon-32x32.png" />
 <style>
 @font-face{font-family:'Hunter';src:url(https://skinsalt.co/cdn/shop/t/9/assets/Hunter.otf?v=63990947441886350611774631106) format('opentype');font-weight:400;font-style:normal;font-display:swap}
@@ -11,243 +11,92 @@
 @font-face{font-family:'Filson Pro';src:url(https://skinsalt.co/cdn/shop/t/9/assets/FilsonProRegular.ttf?v=138580488344116954231774631105) format('truetype');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Filson Pro';src:url(https://skinsalt.co/cdn/shop/t/9/assets/FilsonProMedium.woff2?v=12638189851921117931774631112) format('woff2');font-weight:500;font-style:normal;font-display:swap}
 @font-face{font-family:'Filson Pro';src:url(https://skinsalt.co/cdn/shop/t/9/assets/FilsonProBold.woff2?v=31919933438904218811774631110) format('woff2');font-weight:700;font-style:normal;font-display:swap}
-
-:root{
-  --ink:#363636;
-  --black:#000;
-  --white:#fff;
-  --lavender:#C8B4FF;
-  --purple:#4C19D8;
-  --lime:#ECF802;
-  --teal:#108474;
-  --sand:#E9D1B8;
-  --mist:#F6F4F4;
-  --lilac:#F1ECFF;
-  --line:#E8E4DF;
-  --muted:#7B7B7B;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;
-  color:var(--ink);
-  background:var(--mist);
-  font-family:'Filson Pro',system-ui,sans-serif;
-  font-weight:400;
-  line-height:1.55;
-  -webkit-font-smoothing:antialiased;
-}
+:root{--ink:#363636;--lavender:#C8B4FF;--purple:#4C19D8;--lime:#ECF802;--teal:#108474;--mist:#F6F4F4;--lilac:#F1ECFF;--line:#E8E4DF;--muted:#7B7B7B}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:var(--mist);font-family:'Filson Pro',system-ui,sans-serif;font-weight:400;line-height:1.55;-webkit-font-smoothing:antialiased}
 a{color:inherit}
-
-.topbar{
-  position:sticky;top:0;z-index:20;
-  background:#000;
-  color:#fff;
-  border-bottom:1px solid rgba(255,255,255,.08);
-}
-.topbar-inner{
-  max-width:1080px;margin:0 auto;
-  padding:14px 22px;
-  display:flex;align-items:center;justify-content:space-between;gap:16px;
-}
+.topbar{position:sticky;top:0;z-index:20;background:#000;color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+.topbar-inner{max-width:1080px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .topbar img{height:28px;width:auto;display:block}
-.topbar .badge{
-  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
-  color:#000;background:var(--lime);padding:6px 10px;border-radius:999px;
-}
-.topbar nav{display:flex;flex-wrap:wrap;gap:6px}
-.topbar nav a{
-  font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;
-  color:rgba(255,255,255,.7);text-decoration:none;padding:6px 8px;border-radius:999px;
-}
+.badge{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#000;background:var(--lime);padding:6px 10px;border-radius:999px}
+.topbar nav{display:flex;flex-wrap:wrap;gap:4px}
+.topbar nav a{font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:rgba(255,255,255,.7);text-decoration:none;padding:6px 8px;border-radius:999px}
 .topbar nav a:hover{color:#fff;background:rgba(255,255,255,.08)}
-
 .wrap{max-width:1080px;margin:0 auto;padding:28px 22px 72px}
-
-.hero{
-  position:relative;overflow:hidden;
-  background:#000;
-  color:#fff;
-  border-radius:28px;
-  padding:48px 40px 40px;
-  margin-bottom:22px;
-}
-.hero::before{
-  content:"";position:absolute;inset:auto -10% -40% auto;width:420px;height:420px;
-  background:radial-gradient(circle, rgba(200,180,255,.55), transparent 68%);
-  pointer-events:none;
-}
-.hero::after{
-  content:"";position:absolute;left:-8%;top:-30%;width:280px;height:280px;
-  background:radial-gradient(circle, rgba(236,248,2,.18), transparent 70%);
-  pointer-events:none;
-}
-.hero > *{position:relative}
-.eyebrow{
-  display:inline-flex;align-items:center;gap:8px;
-  font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--lavender);margin:0 0 16px;
-}
+.hero{position:relative;overflow:hidden;background:#000;color:#fff;border-radius:28px;padding:48px 40px 40px;margin-bottom:22px}
+.hero::before{content:"";position:absolute;inset:auto -10% -40% auto;width:420px;height:420px;background:radial-gradient(circle,rgba(200,180,255,.55),transparent 68%);pointer-events:none}
+.hero::after{content:"";position:absolute;left:-8%;top:-30%;width:280px;height:280px;background:radial-gradient(circle,rgba(236,248,2,.18),transparent 70%);pointer-events:none}
+.hero>*{position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--lavender);margin:0 0 16px}
 .eyebrow i{width:8px;height:8px;border-radius:50%;background:var(--lime);display:inline-block}
-h1{
-  font-family:'Hunter',Georgia,serif;
-  font-weight:400;
-  font-size:clamp(40px,6vw,68px);
-  line-height:1.02;
-  letter-spacing:-.02em;
-  margin:0 0 16px;
-  max-width:14ch;
-}
-.hero-lead{
-  font-size:18px;line-height:1.4;color:rgba(255,255,255,.78);
-  max-width:54ch;margin:0 0 22px;font-weight:300;
-}
+h1{font-family:'Hunter',Georgia,serif;font-weight:400;font-size:clamp(40px,6vw,68px);line-height:1.02;letter-spacing:-.02em;margin:0 0 16px;max-width:16ch}
+.hero-lead{font-size:18px;line-height:1.4;color:rgba(255,255,255,.78);max-width:58ch;margin:0 0 22px;font-weight:300}
 .meta{display:flex;flex-wrap:wrap;gap:8px}
-.pill{
-  font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
-  border:1px solid rgba(255,255,255,.18);
-  background:rgba(255,255,255,.06);
-  padding:8px 12px;border-radius:999px;
-}
-
-.section{
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:24px;
-  padding:32px 32px 28px;
-  margin-bottom:16px;
-}
-.section h2{
-  font-family:'Hunter',Georgia,serif;
-  font-weight:400;
-  font-size:clamp(28px,3.5vw,36px);
-  line-height:1.1;
-  margin:0 0 14px;
-  letter-spacing:-.01em;
-}
-.kicker{
-  font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--purple);margin:0 0 8px;
-}
+.pill{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);padding:8px 12px;border-radius:999px}
+.section{background:#fff;border:1px solid var(--line);border-radius:24px;padding:32px 32px 28px;margin-bottom:16px}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--purple);margin:0 0 8px}
+.section h2{font-family:'Hunter',Georgia,serif;font-weight:400;font-size:clamp(28px,3.5vw,36px);line-height:1.1;margin:0 0 14px;letter-spacing:-.01em}
+.section h3{font-family:'Hunter',Georgia,serif;font-weight:400;font-size:24px;line-height:1.15;margin:0 0 10px}
 p{margin:0 0 12px}
 .lede{font-size:17px;line-height:1.45;color:#333;font-weight:300}
-.thesis{
-  margin:18px 0;
-  padding:18px 20px;
-  background:var(--lilac);
-  border-radius:16px;
-  border:1px solid #E4D8FF;
-  font-size:16px;line-height:1.45;
-}
+.thesis{margin:18px 0;padding:18px 20px;background:var(--lilac);border-radius:16px;border:1px solid #E4D8FF;font-size:16px;line-height:1.45}
 .thesis strong{color:var(--purple)}
-
-.hierarchy{margin:8px 0 0;padding-left:1.15em}
-.hierarchy li{margin:8px 0}
-
+.split{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
+.box{border-radius:16px;padding:16px;font-size:13.5px}
+.box h4{margin:0 0 8px;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.box ul{margin:0;padding-left:1.1em}
+.demote{background:#FFF5F5;border:1px solid #F5C7C7}.demote h4{color:#B42318}
+.promote{background:#EDFBF7;border:1px solid #BFE9DF}.promote h4{color:var(--teal)}
+.angle{border:1px solid var(--line);border-radius:18px;padding:20px 20px 16px;margin:12px 0;background:var(--mist)}
+.angle.primary{background:#fff;border-color:#D8C9FF;box-shadow:0 8px 28px rgba(76,25,216,.06)}
+.angle .num{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--purple);margin-bottom:6px}
+.angle .label{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--lavender);color:#000;padding:3px 8px;border-radius:999px;margin-left:8px;vertical-align:middle}
+.angle .label.support{background:#eee;color:#555}
+.angle p{font-size:14.5px;color:#444}
+.angle .row{margin:10px 0 0;padding-top:10px;border-top:1px solid var(--line);font-size:13.5px}
+.angle .row strong{color:var(--ink);font-weight:700}
+.hooks{margin:8px 0 0;padding-left:1.1em;font-size:13.5px;color:#333}
+.hooks li{margin:4px 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:#fff;border:1px solid var(--line);padding:5px 9px;border-radius:999px}
+.callout{margin-top:14px;padding:14px 16px;border-radius:14px;background:#FFFBEA;border:1px solid #F5E7A3;font-size:13.5px;color:#5C4B00}
+.note{margin-top:12px;padding:12px 14px;border-radius:12px;background:#F8F8F8;border:1px solid var(--line);font-size:12.5px;color:#555}
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
-.stat{
-  background:var(--mist);border-radius:16px;padding:18px 16px;
-  border:1px solid var(--line);
-}
-.stat b{
-  display:block;font-family:'Hunter',Georgia,serif;font-size:34px;line-height:1;
-  color:var(--purple);margin-bottom:6px;
-}
-.stat span{font-size:12px;font-weight:500;color:var(--muted);letter-spacing:.02em}
-
+.stat{background:var(--mist);border-radius:16px;padding:18px 16px;border:1px solid var(--line)}
+.stat b{display:block;font-family:'Hunter',Georgia,serif;font-size:34px;line-height:1;color:var(--purple);margin-bottom:6px}
+.stat span{font-size:12px;font-weight:500;color:var(--muted)}
 table{width:100%;border-collapse:collapse;font-size:13.5px;margin:14px 0 4px}
 th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
 tr:last-child td{border-bottom:0}
-
 .beliefs{list-style:none;padding:0;margin:8px 0 0;counter-reset:b}
-.beliefs li{
-  counter-increment:b;
-  display:flex;gap:14px;align-items:flex-start;
-  padding:14px 0;border-bottom:1px solid var(--line);
-  font-size:15px;
-}
+.beliefs li{counter-increment:b;display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line);font-size:15px}
 .beliefs li:last-child{border-bottom:0}
-.beliefs li::before{
-  content:counter(b);
-  flex:0 0 32px;height:32px;border-radius:50%;
-  background:var(--purple);color:#fff;
-  display:grid;place-items:center;
-  font-size:12px;font-weight:700;
-}
-
-.split{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
-.box{border-radius:16px;padding:16px 16px 14px;font-size:13.5px}
-.box h4{margin:0 0 8px;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
-.yes{background:#EDFBF7;border:1px solid #BFE9DF}
-.yes h4{color:var(--teal)}
-.no{background:#FFF5F5;border:1px solid #F5C7C7}
-.no h4{color:#B42318}
-.box ul{margin:0;padding-left:1.1em}
-
-.callout{
-  margin-top:14px;padding:14px 16px;border-radius:14px;
-  background:#FFFBEA;border:1px solid #F5E7A3;
-  font-size:13.5px;color:#5C4B00;
-}
-.tag{
-  display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
-  background:var(--lavender);color:#000;padding:4px 8px;border-radius:6px;margin-right:6px;
-}
-
-.angle-card{
-  border:1px solid var(--line);border-radius:16px;padding:16px;margin:10px 0;background:var(--mist);
-}
-.angle-card .num{
-  font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--purple);
-}
-.angle-card h3{
-  font-family:'Hunter',Georgia,serif;font-weight:400;font-size:24px;margin:4px 0 8px;line-height:1.15;
-}
-.angle-card p{margin:0;font-size:14px;color:#444}
-.meta-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-.chip{
-  font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
-  background:#fff;border:1px solid var(--line);padding:5px 9px;border-radius:999px;
-}
-
-.slack{
-  background:#000;color:#fff;border-radius:18px;padding:20px 22px;
-  font-size:15px;line-height:1.45;font-weight:300;
-}
-.slack strong{color:var(--lime);font-weight:700}
-
-.cal td:first-child{font-weight:700;color:var(--purple);white-space:nowrap}
-
-footer.page{
-  margin-top:28px;text-align:center;color:var(--muted);font-size:12px;
-}
+.beliefs li::before{content:counter(b);flex:0 0 32px;height:32px;border-radius:50%;background:var(--purple);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:700}
+.timeline{list-style:none;padding:0;margin:8px 0 0}
+.timeline li{position:relative;padding:14px 0 14px 22px;border-bottom:1px solid var(--line)}
+.timeline li:last-child{border-bottom:0}
+.timeline li::before{content:"";position:absolute;left:0;top:20px;width:8px;height:8px;border-radius:50%;background:var(--purple)}
+.timeline strong{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--purple);margin-bottom:4px}
+.slack{background:#000;color:#fff;border-radius:18px;padding:20px 22px;font-size:15px;line-height:1.45;font-weight:300}
+.slack em{color:var(--lime);font-style:normal;font-weight:700}
+footer.page{margin-top:28px;text-align:center;color:var(--muted);font-size:12px}
 footer.page a{color:var(--purple);font-weight:700;text-decoration:none}
-
-@media (max-width:760px){
-  .hero,.section{padding:24px 18px;border-radius:20px}
-  .stats,.split{grid-template-columns:1fr}
-  .topbar nav{display:none}
-  h1{max-width:none}
-}
+@media(max-width:760px){.hero,.section{padding:24px 18px;border-radius:20px}.stats,.split{grid-template-columns:1fr}.topbar nav{display:none}h1{max-width:none}}
 </style>
 </head>
 <body>
   <div class="topbar">
     <div class="topbar-inner">
-      <a href="https://skinsalt.co" target="_blank" rel="noopener">
-        <img src="https://skinsalt.co/cdn/shop/files/header-skinsalt-logo.png" alt="Skin Salt" />
-      </a>
+      <a href="https://skinsalt.co" target="_blank" rel="noopener"><img src="https://skinsalt.co/cdn/shop/files/header-skinsalt-logo.png" alt="Skin Salt" /></a>
       <nav>
-        <a href="#summary">Summary</a>
+        <a href="#shift">Shift</a>
+        <a href="#primary">Primary</a>
+        <a href="#support">Support</a>
+        <a href="#sequence">Sequence</a>
         <a href="#icp">ICP</a>
-        <a href="#competitors">Competitors</a>
         <a href="#beliefs">Beliefs</a>
-        <a href="#jobs">Jobs</a>
-        <a href="#mechanism">Mechanism</a>
-        <a href="#angles">Angles</a>
         <a href="#copy">Copy</a>
-        <a href="#calendar">Calendar</a>
       </nav>
       <span class="badge">Internal · Winter ’26–27</span>
     </div>
@@ -255,73 +104,201 @@ footer.page a{color:var(--purple);font-weight:700;text-decoration:none}
 
   <div class="wrap">
     <header class="hero">
-      <p class="eyebrow"><i></i> Creative / Growth / Brand</p>
-      <h1>Winter Strategy Recap</h1>
-      <p class="hero-lead">Stop selling sweat electrolytes. Sell heater-season skin hydration for women 51–65 whose cream sits on top.</p>
+      <p class="eyebrow"><i></i> Angle playbook for creative</p>
+      <h1>Winter Angle Playbook</h1>
+      <p class="hero-lead">You’re not fighting the season — you’re using it. Winter gives skin a villain people can see and feel, and built-in deadlines (holidays, New Year) that summer never does.</p>
       <div class="meta">
-        <span class="pill">5 Sep 2026</span>
-        <span class="pill">US-primary DTC</span>
-        <span class="pill">Spine 51–65</span>
-        <span class="pill">Angle lock</span>
+        <span class="pill">Team playbook</span>
+        <span class="pill">+ research lock</span>
+        <span class="pill">ICP spine 51–65</span>
+        <span class="pill">Updated Sep 2026</span>
       </div>
     </header>
 
-    <section class="section" id="summary">
-      <p class="kicker">01 — Executive summary</p>
-      <h2>Winter is a barrier season, not a sports season</h2>
-      <p class="lede">The electrolyte category’s mental model is <em>sweat = permission to take salt</em>. When she’s not sweating, salt feels extra or risky — while heating quietly dries her face and cold mutes thirst.</p>
-      <p><strong>Skin Salt’s winter job is not “refreshing glow electrolytes.”</strong> It’s a drinkable winter barrier / skin-hydration ritual for women who already buy creams (and often collagen), whose jars stop working under forced air.</p>
-      <div class="thesis"><strong>Core thesis.</strong> Winter doesn’t give sweat-permission for salt — heating drains skin and cold mutes thirst. Skin Salt is the drinkable winter skin-support stick (HA + ceramides + Vitamin C + DermaVal) with <strong>500 mg sodium (half of LMNT’s typical 1,000 mg)</strong> so water works when cream alone can’t.</div>
-      <p class="kicker" style="margin-top:20px">Hero hierarchy</p>
-      <ol class="hierarchy">
-        <li><strong>Skin matrix</strong> (HA + ceramides + DermaVal) — <em>why winter</em></li>
-        <li><strong>Electrolytes</strong> as delivery — <em>how water sticks</em></li>
-        <li><strong>Energy &amp; focus</strong> — bonus only (don’t lead)</li>
-      </ol>
+    <section class="section" id="shift">
+      <p class="kicker">The strategic shift</p>
+      <h2>Winter isn’t the off-season. It’s the strongest skin season.</h2>
+      <p class="lede">In summer, the easy sell is thirst: sweat, heat, “refreshing hydration,” electrolytes after a workout. In winter that lever gets weaker — nobody’s reaching for a cold electrolyte drink because they’re hot.</p>
+      <div class="thesis">
+        <strong>The reframe.</strong> Cold air outside and dry heated air inside strip moisture out of skin faster than summer ever does — and because people don’t <em>feel</em> thirsty in the cold, they under-hydrate exactly when their skin needs it most. So we don’t abandon hydration. We drop the “refreshing summer drink” framing and re-aim the same mechanism at winter’s real enemies: dryness, dullness, tightness, accelerated aging, low energy, and holiday pressure to look good.
+      </div>
+      <div class="split">
+        <div class="box demote">
+          <h4>Demote</h4>
+          <ul>
+            <li>Refreshment</li>
+            <li>Thirst</li>
+            <li>Post-workout</li>
+            <li>“Summer glow”</li>
+          </ul>
+        </div>
+        <div class="box promote">
+          <h4>Promote</h4>
+          <ul>
+            <li>Internal moisture defense</li>
+            <li>Winter aging</li>
+            <li>Holiday / event glow</li>
+            <li>Energy in the dark months</li>
+            <li>Gifting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="primary">
+      <p class="kicker">Primary angles — lead with these</p>
+      <h2>Five always-worth-testing leads</h2>
+
+      <article class="angle primary">
+        <div class="num">01 <span class="label">Primary</span></div>
+        <h3>Winter is quietly wrecking your skin</h3>
+        <p><strong>Big idea:</strong> Cold wind + indoor heating pull moisture out of your skin all day. Creams sit on the surface; the damage is happening from the inside, at the cell.</p>
+        <div class="row"><strong>Emotional core:</strong> Frustration — “I moisturize constantly and my skin is still tight, flaky, and dull.”</div>
+        <div class="row"><strong>Why it’s strong:</strong> Same cellular-hydration mechanism as summer, but winter dryness is more visceral and more visible. The hydration angle actually gets <em>better</em> here.</div>
+        <div class="row"><strong>Hook directions:</strong>
+          <ul class="hooks">
+            <li>“Your winter skincare is fighting the wrong battle.”</li>
+            <li>“Why your skin gets tight the second you walk indoors.”</li>
+            <li>“Moisturizer can’t reach the layer winter is drying out.”</li>
+          </ul>
+        </div>
+        <div class="chips"><span class="chip">Cold ads</span><span class="chip">TOF</span><span class="chip">Problem-aware</span></div>
+      </article>
+
+      <article class="angle primary">
+        <div class="num">02 <span class="label">Primary</span></div>
+        <h3>The dehydration you can’t feel</h3>
+        <p><strong>Big idea:</strong> You don’t get thirsty in the cold, so you drink far less than in summer — and your skin, energy, and focus quietly crash. Winter dehydration is invisible until it shows on your face.</p>
+        <div class="row"><strong>Emotional core:</strong> “Wait, that’s why?” — a hidden cause for something they’ve been blaming on winter itself.</div>
+        <div class="row"><strong>Hook directions:</strong>
+          <ul class="hooks">
+            <li>“You’re dehydrated right now and you don’t feel it.”</li>
+            <li>“The reason your skin looks worse in January has nothing to do with the cold air.”</li>
+            <li>“Winter tricks your body into skipping water.”</li>
+          </ul>
+        </div>
+        <div class="chips"><span class="chip">Curiosity cold traffic</span><span class="chip">Education</span><span class="chip">Email</span></div>
+      </article>
+
+      <article class="angle primary">
+        <div class="num">03 <span class="label">Primary</span></div>
+        <h3>Winter face / accelerated aging</h3>
+        <p><strong>Big idea:</strong> Dry conditions degrade collagen and elastin faster — fine lines, crepey texture, and that tight, dull “winter face” show up sooner. This is where DermaVal leads instead of supports.</p>
+        <div class="row"><strong>Emotional core:</strong> Fear of looking older, made concrete by a season they can point to.</div>
+        <div class="row"><strong>Why it’s strong:</strong> In winter you can promote the anti-aging story to the front of the ad instead of leading with hydration. Higher-intent, higher-LTV buyer.</div>
+        <div class="row"><strong>Hook directions:</strong>
+          <ul class="hooks">
+            <li>“Winter ages your skin faster than summer sun.”</li>
+            <li>“The fine lines that show up every January.”</li>
+            <li>“Cold-weather aging is a real thing — here’s the fix.”</li>
+          </ul>
+        </div>
+        <div class="chips"><span class="chip">51–65 / anti-aging</span><span class="chip">Retargeting</span><span class="chip">Advertorial</span></div>
+        <div class="note"><strong>Claim note:</strong> DermaVal “up to 98%” is enzyme-inhibition language in supplier studies — don’t ship it as “98% younger skin” or ungrounded skin-result claims. Keep legal review on anti-aging leads.</div>
+      </article>
+
+      <article class="angle primary">
+        <div class="num">04 <span class="label">Primary</span></div>
+        <h3>Holiday glow (event-driven)</h3>
+        <p><strong>Big idea:</strong> Party season, photos, family, work events — everyone wants to look radiant and rested, not dry and tired. Glow for the holidays without piling on more makeup.</p>
+        <div class="row"><strong>Emotional core:</strong> Vanity + occasion pressure, with a hard deadline built in.</div>
+        <div class="row"><strong>Hook directions:</strong>
+          <ul class="hooks">
+            <li>“Glowing skin for every holiday photo.”</li>
+            <li>“The 30-second morning ritual before party season.”</li>
+            <li>“Show up glowing, not exhausted.”</li>
+          </ul>
+        </div>
+        <div class="chips"><span class="chip">Late Nov–Dec</span><span class="chip">Social + email</span><span class="chip">Date urgency</span></div>
+      </article>
+
+      <article class="angle primary">
+        <div class="num">05 <span class="label">Primary</span></div>
+        <h3>New Year glow-up</h3>
+        <p><strong>Big idea:</strong> New year, new skin. A beauty-from-within reset that’s an easy daily habit — the resolution people actually keep because it takes 30 seconds and tastes good.</p>
+        <div class="row"><strong>Emotional core:</strong> Fresh-start motivation, self-improvement, ritual.</div>
+        <div class="row"><strong>Hook directions:</strong>
+          <ul class="hooks">
+            <li>“Your 2026 glow-up starts in a glass.”</li>
+            <li>“The beauty resolution that takes 30 seconds a day.”</li>
+            <li>“Skip the 12-step routine. Start here.”</li>
+          </ul>
+        </div>
+        <div class="chips"><span class="chip">Late Dec–Jan</span><span class="chip">Subscription</span><span class="chip">Habit</span></div>
+      </article>
+    </section>
+
+    <section class="section" id="support">
+      <p class="kicker">Supporting angles — rotate + test</p>
+      <h2>Four more to keep in the mix</h2>
+
+      <article class="angle">
+        <div class="num">06 <span class="label support">Support</span></div>
+        <h3>Winter energy &amp; focus</h3>
+        <p>Dark mornings, 4pm slumps, seasonal low energy. Lean on the electrolyte side — focus and all-day energy — to broaden past skin entirely. Good for reaching people who don’t think of themselves as “skincare buyers.”</p>
+        <div class="row"><strong>Hook:</strong> “Why winter afternoons wipe you out — and the fix isn’t caffeine.”</div>
+        <div class="note">Keep as support for ICP 51–65 — don’t let this reopen a sports-drink frame as the hero.</div>
+      </article>
+
+      <article class="angle">
+        <div class="num">07 <span class="label support">Support</span></div>
+        <h3>Post-holiday recovery</h3>
+        <p>Travel, flights, alcohol, sugar, and salt over the holidays all dehydrate and dull the skin. Position January as the reset.</p>
+        <div class="row"><strong>Hook:</strong> “Undo the holidays in a glass.” Pairs with New Year.</div>
+      </article>
+
+      <article class="angle">
+        <div class="num">08 <span class="label support">Support</span></div>
+        <h3>Gifting</h3>
+        <p>Stick packs are a natural beauty stocking-stuffer / gift for the wellness friend. Revenue angle more than psychology — gift bundle, “give the gift of glow,” ride through December.</p>
+        <div class="chips"><span class="chip">Social</span><span class="chip">Email</span><span class="chip">Gift-set offer</span></div>
+      </article>
+
+      <article class="angle">
+        <div class="num">09 <span class="label support">Support</span></div>
+        <h3>Dry-hands-and-lips proof of concept</h3>
+        <p>A small, concrete winter tell everyone recognizes — cracked lips, dry hands, tight cheeks — as visible proof that surface products aren’t enough. Useful as a hook into any primary angle.</p>
+      </article>
+    </section>
+
+    <section class="section" id="sequence">
+      <p class="kicker">How to sequence the season</p>
+      <h2>When each angle owns the calendar</h2>
+      <ul class="timeline">
+        <li><strong>Late Nov – Dec</strong> Lead with Holiday Glow and Gifting. Winter Dryness (#1) is the evergreen cold-traffic workhorse underneath.</li>
+        <li><strong>Late Dec – Jan</strong> Pivot hard to New Year Glow-Up + Post-Holiday Recovery. Push subscription.</li>
+        <li><strong>All winter</strong> Winter Dryness (#1), Invisible Dehydration (#2), and Winter Aging (#3) are your three always-on cold-traffic angles — test them head to head and scale the winner.</li>
+      </ul>
+      <div class="thesis" style="margin-top:18px"><strong>Bottom line.</strong> You’re not fighting the season, you’re using it. Winter gives skin a villain people can see and feel, and gives you built-in deadlines (holidays, New Year) that summer never does.</div>
     </section>
 
     <section class="section" id="icp">
-      <p class="kicker">02 — Who we’re talking to</p>
-      <h2>Not TikTok glass skin. Real buyers.</h2>
+      <p class="kicker">Research lock — who we’re talking to</p>
+      <h2>ICP from survey (don’t write for 32)</h2>
       <p>Post-purchase survey 27 Jul – 26 Aug 2026 · <strong>n = 338</strong></p>
       <div class="stats">
         <div class="stat"><b>~52%</b><span>of responses ages 51–65</span></div>
         <div class="stat"><b>46–70</b><span>broader core · under-35 ~1.5%</span></div>
       </div>
+      <p>US woman ~55, late peri / post-menopause. Owns CeraVe-class creams + often collagen. January skin <em>hurts</em>. Hates tired Teams / photo face. Wants <strong>skin quality without looking “done.”</strong></p>
+      <div class="callout"><strong>Casting / voice kill list:</strong> glass skin, teen glow, gym sweat, “salty rebellion,” under-35 influencer cadence.</div>
+      <p class="kicker" style="margin-top:22px">Competitive wedge</p>
       <table>
-        <thead><tr><th>Age</th><th>Share</th><th>Notes</th></tr></thead>
+        <thead><tr><th>Brand</th><th>Role</th><th>Implication</th></tr></thead>
         <tbody>
-          <tr><td><strong>51–55</strong></td><td>18.3%</td><td>High volume</td></tr>
-          <tr><td><strong>61–65</strong></td><td>18.1%</td><td>Highest revenue in period</td></tr>
-          <tr><td><strong>56–60</strong></td><td>15.7%</td><td>High volume</td></tr>
-          <tr><td><strong>46–50</strong></td><td>13.9%</td><td>Strong</td></tr>
-          <tr><td>41–45</td><td>10.1%</td><td>Secondary</td></tr>
-          <tr><td>Under 35</td><td>~1.5%</td><td>Negligible</td></tr>
+          <tr><td><strong>LMNT</strong></td><td>1,000 mg sports salt</td><td>Half-packet guilt · winter objection</td></tr>
+          <tr><td><strong>Liquid I.V.</strong></td><td>~500 mg + sugar</td><td>Travel / holiday · sugar friction</td></tr>
+          <tr><td><strong>Instant Hydration</strong></td><td>~500 mg, not beauty</td><td>Closest clean electrolyte peer</td></tr>
+          <tr><td><strong>K2O</strong></td><td>Beauty + HA + collagen</td><td>Closest peer · clump/taste openings</td></tr>
+          <tr><td><strong>Creams</strong></td><td>Winter aisle</td><td>“Sits on top” · Jan search</td></tr>
         </tbody>
       </table>
-      <p style="margin-top:16px">US woman ~55, late peri / post-menopause. Owns CeraVe-class creams + often collagen. January skin <em>hurts</em>. Hates tired Teams / photo face. Wants <strong>skin quality without looking “done.”</strong> Comfort + recognition — not youth cosplay.</p>
-      <div class="callout"><strong>Kill for casting &amp; voice:</strong> glass skin, teen glow, gym sweat, “salty rebellion,” under-35 influencer cadence.</div>
-    </section>
-
-    <section class="section" id="competitors">
-      <p class="kicker">03 — Competitive frame</p>
-      <h2>Where we sit</h2>
-      <table>
-        <thead><tr><th>Brand</th><th>Role</th><th>Sodium</th><th>Implication</th></tr></thead>
-        <tbody>
-          <tr><td><strong>LMNT</strong></td><td>Sports / keto</td><td><strong>1,000 mg</strong></td><td>Winter objection · half-packet workarounds</td></tr>
-          <tr><td><strong>Liquid I.V.</strong></td><td>Mass hydration</td><td>~500 mg (+ sugar)</td><td>Travel / holiday · sugar friction</td></tr>
-          <tr><td><strong>Instant Hydration</strong></td><td>Zero-sugar daily electrolytes</td><td>~500 mg</td><td>Closest clean peer — not beauty</td></tr>
-          <tr><td><strong>K2O</strong></td><td>Beauty hydration</td><td>Lower-Na beauty</td><td>HA + collagen · clump/taste complaints</td></tr>
-          <tr><td><strong>Creams</strong></td><td>Winter aisle</td><td>—</td><td>Own Jan search · “sits on top”</td></tr>
-        </tbody>
-      </table>
-      <p style="margin-top:14px"><span class="tag">Wedge</span> 500 mg Na + HA / ceramides / Vit C / DermaVal — beauty serum you drink. Crisp water. No collagen sludge.</p>
+      <p style="margin-top:12px"><strong>Skin Salt:</strong> 500 mg Na + HA / ceramides / Vit C / DermaVal — beauty serum you drink. Crisp water. No collagen sludge.</p>
     </section>
 
     <section class="section" id="beliefs">
-      <p class="kicker">04 — Six beliefs</p>
-      <h2>Install these, in order</h2>
+      <p class="kicker">Six beliefs to install</p>
+      <h2>In this order</h2>
       <ol class="beliefs">
         <li>They <strong>trust</strong> Skin Salt</li>
         <li>They <strong>like</strong> Skin Salt</li>
@@ -330,77 +307,14 @@ footer.page a{color:var(--purple);font-weight:700;text-decoration:none}
         <li>They believe Skin Salt <strong>beats the competition</strong></li>
         <li>They believe they need it <strong>NOW</strong></li>
       </ol>
-      <div class="callout"><strong>Cold / winter:</strong> open on #3 + #5 + #6. <strong>Retarget:</strong> #1 + #4. <strong>Like (#2):</strong> taste, ritual, sampling.</div>
-    </section>
-
-    <section class="section" id="jobs">
-      <p class="kicker">05 — Deep jobs</p>
-      <h2>What we’re really selling</h2>
-      <p class="lede">Strongest ladder:</p>
-      <ol class="hierarchy">
-        <li>Cream sits on top / never enough</li>
-        <li>Stack longer, skin worse (“doing everything right”)</li>
-        <li>Look older than I feel</li>
-        <li>Won’t do frozen/overfilled — won’t accept “nothing works”</li>
-        <li><strong>Restore recognizable, rested self — not youth cosplay</strong></li>
-      </ol>
-      <p class="kicker" style="margin-top:22px">Bedrock motives</p>
-      <ol class="hierarchy">
-        <li>Outside ≠ inside / don’t recognize myself</li>
-        <li>Dignity without looking “done”</li>
-        <li>Not becoming scenery <em>(subtext — not a headline)</em></li>
-      </ol>
-      <div class="split">
-        <div class="box yes"><h4>Say out loud</h4><ul><li>Cream sits on top</li><li>Heater skin / face hurts</li><li>Look rested / like yourself</li><li>Not frozen</li><li>500 mg / half of LMNT</li></ul></div>
-        <div class="box no"><h4>Subtext only</h4><ul><li>Invisible</li><li>Sexual attention</li><li>“Get your husband back”</li></ul></div>
-      </div>
-    </section>
-
-    <section class="section" id="mechanism">
-      <p class="kicker">06 — Mechanism</p>
-      <h2>UMP → UMS</h2>
-      <p><strong>UMP.</strong> She’s been treating a water-holding / barrier-from-within problem as a “buy a richer cream” problem. Forced-air heat + menopause-era drop in skin’s ability to hold water → topicals sit on top. High-sodium sports electrolytes don’t fit desk/winter life.</p>
-      <p><strong>UMS.</strong> Drinkable skin-support matrix (HA + ceramides + Vit C + DermaVal) on <strong>everyday electrolytes (500 mg sodium)</strong> so water and skin nutrients get in while cream seals outside.</p>
-    </section>
-
-    <section class="section" id="angles">
-      <p class="kicker">07 — Angles to ship</p>
-      <h2>Winter test stack</h2>
-
-      <div class="angle-card">
-        <div class="num">A1</div>
-        <h3>Cream sits on top</h3>
-        <p>Cream at 7am → tight cheeks + makeup clinging by lunch.</p>
-        <div class="meta-row"><span class="chip">Beliefs 3→5→4</span><span class="chip">UGC + advertorial</span></div>
-      </div>
-      <div class="angle-card">
-        <div class="num">A2</div>
-        <h3>Doing everything right</h3>
-        <p>Shelf full, skin worse — she’s not failing skincare.</p>
-        <div class="meta-row"><span class="chip">Belief 3 first</span><span class="chip">Edu in-feed</span></div>
-      </div>
-      <div class="angle-card">
-        <div class="num">A3</div>
-        <h3>Heater / forced air</h3>
-        <p>First cold week heat came on → face hurt in two days.</p>
-        <div class="meta-row"><span class="chip">Beliefs 6 + 3</span><span class="chip">Seasonal Meta</span></div>
-      </div>
-      <div class="angle-card">
-        <div class="num">A4</div>
-        <h3>Half the salt</h3>
-        <p>Tried salty packets → watered down or quit. Not training under a vent.</p>
-        <div class="meta-row"><span class="chip">Beliefs 5 + 1</span><span class="chip">Comparison static</span></div>
-      </div>
-
-      <p style="margin-top:16px;font-size:14px;color:#555"><strong>Supporting:</strong> look like you feel · not done/not frozen · Teams/family photo (Q4) · for pain not beauty · already on collagen · curiosity/not scenery (brand only)</p>
-      <div class="callout"><strong>If we only ship three:</strong> cream-under-heater · half-the-salt · holiday/Teams photo.</div>
+      <div class="callout"><strong>Map to playbook:</strong> #1–#3 install solvable + NOW. Holiday/NY install NOW hard. Half-salt / cream-fail install beats competition. Retarget builds trust + “Skin Salt solves it.”</div>
     </section>
 
     <section class="section" id="copy">
-      <p class="kicker">08 — Copy rules</p>
+      <p class="kicker">Copy rules</p>
       <h2>Sell. Don’t slogan.</h2>
       <div class="split">
-        <div class="box yes">
+        <div class="box promote">
           <h4>Do</h4>
           <ul>
             <li>Halbert-style: specific moment, felt desire, concrete next picture</li>
@@ -408,54 +322,26 @@ footer.page a{color:var(--purple);font-weight:700;text-decoration:none}
             <li>Steal: parchment, sits on top, hurts, forced air, never thirsty, family photo, Teams, 500 mg, 90 days</li>
           </ul>
         </div>
-        <div class="box no">
+        <div class="box demote">
           <h4>Don’t</h4>
           <ul>
             <li>Slogan poetry (“fill the tank”)</li>
-            <li>Beach / sweat / ice plunge / salty rebellion / glass skin</li>
+            <li>Beach / sweat / ice plunge / salty rebellion</li>
             <li>Overclaim Dermaval “98%” as skin results</li>
-            <li>Equate 40 mg HA to higher-dose studies</li>
+            <li>“Get your husband back” / sexual attention as primary</li>
           </ul>
         </div>
       </div>
-      <p class="kicker" style="margin-top:22px">Sodium / no-sweat script</p>
+      <p class="kicker" style="margin-top:22px">Sodium / no-sweat (still matters in winter)</p>
       <p>You’re not wrong — you don’t need a <em>sports</em> salt dump when you’re not sweating. Skin Salt is <strong>500 mg sodium — about half of LMNT’s typical 1,000 mg</strong>. Winter reason-to-buy is the skin ingredients; electrolytes help water land. BP / sodium limits → doctor.</p>
-    </section>
-
-    <section class="section" id="calendar">
-      <p class="kicker">09 — Calendar</p>
-      <h2>Sep 2026 – Feb 2027</h2>
-      <table class="cal">
-        <thead><tr><th>Month</th><th>Theme</th><th>Lead</th></tr></thead>
-        <tbody>
-          <tr><td>Sep</td><td>Heating season coming</td><td>Soft heater education · early winter kit</td></tr>
-          <tr><td>Oct</td><td>Indoor barrier launch</td><td>Cream sits on top + Half the salt</td></tr>
-          <tr><td>Nov</td><td>Travel + table</td><td>Cabin / flight · BFCM gifts</td></tr>
-          <tr><td>Dec</td><td>Party / photo face</td><td>Holiday honesty · gift LP</td></tr>
-          <tr><td>Jan</td><td>Peak dry-skin demand</td><td>Non-Dry January · cream fail · 90-day — <strong>steal skincare search</strong></td></tr>
-          <tr><td>Feb</td><td>Proof &amp; romance</td><td>90-day UGC · win-back</td></tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section class="section" id="next">
-      <p class="kicker">10 — Next + standup</p>
-      <h2>What to do now</h2>
-      <ol class="hierarchy">
-        <li>Produce A1–A3 Meta concepts</li>
-        <li>Winter LP modules: heater · skin matrix · 500 vs 1,000 · cream ally · 90-day</li>
-        <li>Casting lock: real 51–65, winter light, Zoom / bathroom heater</li>
-        <li>Jan Non-Dry January plan + offer</li>
-        <li>Proof plan: 8–12 week comfort / makeup-sit in ICP age</li>
-      </ol>
-      <p class="kicker" style="margin-top:22px">Slack / standup</p>
-      <div class="slack">Winter: stop selling sweat electrolytes. Sell heater-season skin hydration for <strong>51–65</strong> women whose cream sits on top — <strong>500 mg sodium</strong>, skin matrix as hero, half-LMNT as permission, <strong>Jan as the steal month</strong>.</div>
+      <p class="kicker" style="margin-top:22px">Standup line</p>
+      <div class="slack">Winter: stop selling sweat electrolytes. Sell heater-season skin hydration for <em>51–65</em> — dryness / invisible dehydration / winter aging always-on, holiday + New Year for deadlines, <em>Jan as the steal month</em>.</div>
     </section>
 
     <footer class="page">
       Internal strategy · Marketing guidance, not medical advice · Claims subject to legal review<br />
       <a href="https://skinsalt.co" target="_blank" rel="noopener">skinsalt.co</a>
-      · Fonts &amp; logo from brand CDN (Hunter · Filson Pro)
+      · Brand fonts: Hunter · Filson Pro
     </footer>
   </div>
 </body>
